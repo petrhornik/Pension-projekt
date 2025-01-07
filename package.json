@@ -1,0 +1,27 @@
+{
+  "name": "pension-projekt",
+  "version": "1.0.0",
+  "description": "Skolni webovy projekt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrhornik/Pension-projekt.git"
+  },
+  "keywords": [
+    "webpage",
+    "web"
+  ],
+  "author": "Petr Hornik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrhornik/Pension-projekt/issues"
+  },
+  "homepage": "https://github.com/petrhornik/Pension-projekt#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
