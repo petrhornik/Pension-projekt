@@ -17,19 +17,19 @@ Jako podklad dostáváš kompletně nakódovaný web o pěti stránkách. Tvým 
 
 Cílem tohoto úkolu je hlavně vyzkoušet si základní práci s generátorem statických webů Eleventy:
 - **Práce s Eleventy**
-  - součástí zadání je kompletně nakódovaný pětistránkový web (HTML, CSS, obrázky)
-  - proveď v projektu `npm init` a nainstaluj Eleventy
-  - nakonfiguruj Eleventy, můžeš použít žádné (defaultní) nastavení s doplněním vlastních požadavků dle potřeby, nebo že ji můžeš celou napsat (pak ale budeš mít jinde výstup a bude třeba upravit . gitignore), je třeba dát pozor na to, aby se do sestaveného webu kopírovaly složky `css` a `images`
-  - v sekci `scripts` souboru *package.json* vytvoř dva skripty
-  - spusť web lokálně pomocí skriptu a vyzkoušej, zda vše funguje správně
+*  - součástí zadání je kompletně nakódovaný pětistránkový web (HTML, CSS, obrázky) 
+*  - proveď v projektu `npm init` a nainstaluj Eleventy 
+*  - nakonfiguruj Eleventy, můžeš použít žádné (defaultní) nastavení s doplněním vlastních požadavků dle potřeby, nebo že ji můžeš celou napsat (pak ale budeš mít jinde výstup a bude třeba upravit . gitignore), je třeba dát pozor na to, aby se do sestaveného webu kopírovaly složky `css` a `images`
+!!!  - v sekci `scripts` souboru *package.json* vytvoř dva skripty
+*  - spusť web lokálně pomocí skriptu a vyzkoušej, zda vše funguje správně
 - **Vytvoření šablony**
-  - všech pět stránek webu má společné záhlaví a zápatí
-  - vytvoř ze společných částí šablonu
-  - v HTML stránkách nech pouze obsah unikátní pro danou stránku
-  - do stránek přidej **front matter** a nastav stránky tak, aby používaly vytvořenou šablonu
-  - každá stránka musí mít svůj vlastní `title`
-  - v HTML (v šabloně i v obsahu) a v CSS uprav cesty k obrázkům, stylům, apod. tak, aby začínaly lomítkem a ukazovaly na správné soubory
-  - v šabloně uprav menu, aby ukazovalo na správné adresy stránek, až Eleventy vygeneruje výsledný web
+*  - všech pět stránek webu má společné záhlaví a zápatí
+*  - vytvoř ze společných částí šablonu
+*  - v HTML stránkách nech pouze obsah unikátní pro danou stránku
+!!!  - do stránek přidej **front matter** a nastav stránky tak, aby používaly vytvořenou šablonu
+*  - každá stránka musí mít svůj vlastní `title`
+*  - v HTML (v šabloně i v obsahu) a v CSS uprav cesty k obrázkům, stylům, apod. tak, aby začínaly lomítkem a ukazovaly na správné soubory
+*  - v šabloně uprav menu, aby ukazovalo na správné adresy stránek, až Eleventy vygeneruje výsledný web
 - **Práce s Gitem**
   - ověř, že v souboru *.gitignore* ignorujeme složku *_site* a *node_modules*, protože ani jednu z nich v Gitu nechceme ukládat
   - prováděj pravidelné commity řešení na GitHub
