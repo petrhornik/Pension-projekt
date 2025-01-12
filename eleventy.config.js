@@ -5,7 +5,7 @@ export default async function (eleventyConfig) {
     eleventyConfig.setIncludesDirectory("./templates");
 
     eleventyConfig.addPassthroughCopy("src/images");
-    eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("src/css");
   
     return {
       
