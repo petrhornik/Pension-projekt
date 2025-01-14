@@ -75,6 +75,14 @@ section {
 	gap: var(--spacer-bigger);
 }
 
+@media screen and (max-width: 600px){
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: var(--spacer-bigger);
+	}	
+}
+
 .grid__column--double {
 	grid-column: span 2;
 }
@@ -120,7 +128,6 @@ section {
 .header__contact a:focus {
 	color: var(--accent);
 }
-
 
 .header__inner {
 	padding: var(--spacer) var(--spacer-bigger);
@@ -274,6 +281,7 @@ section {
 	grid-template-columns: repeat(3, 1fr);
 	gap: var(--spacer-bigger);
 }
+
 
 .room:not(:last-child) {
 	margin-bottom: var(--spacer-double);
@@ -436,6 +444,7 @@ section {
 	gap: var(--spacer-bigger);
 }
 
+
 .footer__copyright {
 	padding: var(--spacer) var(--spacer-bigger);
 	font-size: 14px;
@@ -456,4 +465,37 @@ section {
 
 .footer__title {
 	color: var(--grey-700);
+}
+
+/*
+ **************************************
+	MUJ VLASTNI RESPONSIVE NA 600PX
+ **************************************
+*/
+
+
+@media screen and (max-width: 600px) {
+	.footer__grid {
+		padding: var(--spacer-double) var(--spacer-bigger);
+		background-color: var(--grey-100);
+		color: white;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: var(--spacer-bigger);
+		text-align: center;
+	}
+	
+	.header__inner {
+		padding: var(--spacer) var(--spacer-bigger);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.room {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		gap: var(--spacer-bigger);
+	}
 }

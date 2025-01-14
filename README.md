@@ -26,7 +26,7 @@ Cílem tohoto úkolu je hlavně vyzkoušet si základní práci s generátorem s
 *  - všech pět stránek webu má společné záhlaví a zápatí
 *  - vytvoř ze společných částí šablonu
 *  - v HTML stránkách nech pouze obsah unikátní pro danou stránku
-!!!  - do stránek přidej **front matter** a nastav stránky tak, aby používaly vytvořenou šablonu
+*  - do stránek přidej **front matter** a nastav stránky tak, aby používaly vytvořenou šablonu
 *  - každá stránka musí mít svůj vlastní `title`
 *  - v HTML (v šabloně i v obsahu) a v CSS uprav cesty k obrázkům, stylům, apod. tak, aby začínaly lomítkem a ukazovaly na správné soubory
 *  - v šabloně uprav menu, aby ukazovalo na správné adresy stránek, až Eleventy vygeneruje výsledný web
