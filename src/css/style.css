@@ -75,13 +75,6 @@ section {
 	gap: var(--spacer-bigger);
 }
 
-@media screen and (max-width: 600px){
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: var(--spacer-bigger);
-	}	
-}
 
 .grid__column--double {
 	grid-column: span 2;
@@ -467,35 +460,3 @@ section {
 	color: var(--grey-700);
 }
 
-/*
- **************************************
-	MUJ VLASTNI RESPONSIVE NA 600PX
- **************************************
-*/
-
-
-@media screen and (max-width: 600px) {
-	.footer__grid {
-		padding: var(--spacer-double) var(--spacer-bigger);
-		background-color: var(--grey-100);
-		color: white;
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: var(--spacer-bigger);
-		text-align: center;
-	}
-	
-	.header__inner {
-		padding: var(--spacer) var(--spacer-bigger);
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.room {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-		gap: var(--spacer-bigger);
-	}
-}

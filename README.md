@@ -45,9 +45,9 @@ Cílem tohoto úkolu je hlavně vyzkoušet si základní práci s generátorem s
 Pro oživení kódování HTML a CSS splň alespoň první z následujících úkolů:
 
 - **Responzivní webdesign**
-  - v CSS je nakódovaná pouze počítačová verze webu
-  - vymysli, jak by mohla vypadat mobilní a tabletová verze a doplň je do CSS
-  - nezapomeň, že používáme přístup **mobile first**, takže je pravděpodobné, že části již hotového CSS budeš muset trochu přeskládat
+ * - v CSS je nakódovaná pouze počítačová verze webu
+  * - vymysli, jak by mohla vypadat mobilní a tabletová verze a doplň je do CSS
+  * - nezapomeň, že používáme přístup **mobile first**, takže je pravděpodobné, že části již hotového CSS budeš muset trochu přeskládat
 - **Kódování CSS**
   - pokud se opravdu nudíš nebo se ti design webu nelíbí, můžeš obsah CSS souboru kompletně vymazat a celý web si nákódovat od začátku sám/sama
 - **BEM**
