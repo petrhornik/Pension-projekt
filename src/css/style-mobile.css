@@ -69,7 +69,7 @@
 }
 
 /*
-Uprava pro telefony menší než 500 px
+Uprava pro telefony menší než 450 a 320 px
 */
 
 @media screen and (max-width: 450px){
@@ -89,23 +89,11 @@ Uprava pro telefony menší než 500 px
 
 @media screen and (max-width: 320px){
 	.menu__list {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		display: flex;
 		flex-direction: column;
-		flex-wrap: wrap;
 		justify-content: baseline;
 	}
 
-	.menu__item:not(:last-child) {
-		border-right: none;
-	}
-
 	.menu__item {
-		margin: 0;
-		padding: 0;
 		align-self: center;
 	}
-}
 }
