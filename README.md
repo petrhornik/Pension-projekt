@@ -1,5 +1,5 @@
 # Penzion u vody
-Nelify odkaz: velvety-tarsier-ac3c57.netlify.app
+Nelify odkaz: [ODKAZ](https://velvety-tarsier-ac3c57.netlify.app)
 
 Povinný úkol.
 
