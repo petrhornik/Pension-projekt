@@ -45,11 +45,6 @@
 		</header>
 
 		<main class="main">
-      	<ul>
-          {%- for post in collections.menu -%}
-            <li>{{ post.data.title }}</li>
-          {%- endfor -%}
-        </ul>
       {{ content | safe }}
 		</main>
 
